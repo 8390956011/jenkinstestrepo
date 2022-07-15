@@ -3,4 +3,3 @@ ls -al
 pwd
 mkdier folder5
 touch file5.txt
-vi file5.txt
