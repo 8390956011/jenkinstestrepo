@@ -1,0 +1,20 @@
+     pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo '1111111111111'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo '2222222222222.'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo '333333333333'
+            }
+        }
+    }
